@@ -1,78 +1,63 @@
+/* Override default style and set padding and margin to nothing */
 * {
-    font-family: serif;
-}
-.header, .footer {
-    background-color: crimson;
-}
-
-.header {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    color: white;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.left-links {
-    display: flex;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+header, footer, intro {
+    background-color: #F41F4E;
+}
+
+body {
+    background-color: 
+    #FCC0C5;
+}
+
+/*header */
 
 .logo {
+    color: #FBFBFB;
     display: flex;
-    justify-content: flex-start;
-    padding: 0;
-    margin: 0;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 100px;
+}
+
+/* No styling on list items */
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
     color: white;
-    font-size: 32px;
-    font-weight: 900;
+    
 }
 
-.right-links {
-    list-style-type: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    gap: 16px;
-}
-
+/*main*/
 .main {
-    background-color:   crimson
-}
-
-.left-links, .right-links {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.container {
-    border-radius: 20px;
     display: flex;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-    max-width: 100%;
-    height: auto;
-
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
 }
 
-.quote {
-  background-color: rgb(236, 236, 236);
-}
-
-.author {
-    font-style: italic;
-}
-
-.footer {
+/*footer */
+footer {
   display: flex;
-  padding: 0px;
-  margin: 0px;
-  color: white;      
+  color: #FBFBFB;      
   justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 15px;
 }
 
+/* All images must not be larger than parent container */
+img {
+    width: 100%;
+  }
