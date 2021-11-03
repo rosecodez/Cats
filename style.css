@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-header, footer, intro {
+header, footer  {
     background-color: #F41F4E;
 }
 
@@ -14,7 +14,6 @@ body {
     #FCC0C5;
 }
 
-/*header */
 
 .logo {
     color: #FBFBFB;
@@ -28,26 +27,16 @@ body {
     padding: 0 100px;
 }
 
-/* No styling on list items */
+
 .main-nav-list {
     list-style: none;
     display: flex;
     gap: 20px;
     font-size: 20px;
-    color: white;
-    
+    color: white;    
 }
 
-/*main*/
-.main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 100px;
-}
 
-/*footer */
 footer {
   display: flex;
   color: #FBFBFB;      
@@ -57,7 +46,6 @@ footer {
   font-size: 15px;
 }
 
-/* All images must not be larger than parent container */
-img {
-    width: 100%;
-  }
+images container {
+    
+}
