@@ -5,13 +5,14 @@
     margin: 0;
 }
 
-.intro, header, footer  {
+.intro-container, header, footer  {
     background-color: #F41F4E;
 }
 
 body {
     background-color: 
     #FCC0C5;
+    font-size: 18px;
 }
 /*header */
 .logo {
@@ -33,7 +34,7 @@ body {
 }
 /*footer*/
 
-.footer {
+footer {
     display: flex;
     color: #FBFBFB;      
     justify-content: center;
@@ -45,19 +46,17 @@ body {
 /*main*/
 .intro-container {
     display: flex;
-    justify-content: center;
-}
-.button1 {
-    align-self: flex-end;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 400px;
+    padding-bottom: 300px;
+    padding-top: 25px;
 }
 .placeholder {
     color: white;
     background-color: black;
-    padding: 100px 90px;  
- 
+    padding: 110px 130px; 
 }
-
-
 /*images*/
 
 
@@ -84,7 +83,7 @@ body {
 }
 
 /*buttons*/
-.button1, .button2 {
+#button1, #button2 {
     background-color: white;
     font-size: 15px;
     padding: 5px 12px;
