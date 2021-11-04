@@ -43,12 +43,12 @@ footer {
     justify-content: center;
     align-items: center;
     width: auto;
-    padding: 5%;
+    padding: 3%;
 }
 
 /*main*/
 .main {
-    padding: 5%;
+    padding: 3%;
     min-height: auto;
 }
 .intro-container {
@@ -68,17 +68,15 @@ footer {
 /*quote*/
 
 .quote {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+    
 }
 #quotetext {
     font-style: italic;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
     font-size: 25px;
 }
-
 /*signup*/
 .signup {
     padding: 100px;
