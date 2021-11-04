@@ -67,15 +67,17 @@ footer {
 
 /*quote*/
 
+
 .quote {
-    
-}
-#quotetext {
     font-style: italic;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     padding: 50px;
     font-size: 25px;
+}
+#author {
+    align-self: flex-end;
 }
 /*signup*/
 .signup {
