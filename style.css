@@ -12,10 +12,7 @@
 body {
     background-color: 
     #FCC0C5;
-
-
 }
-
 /*header */
 .logo {
     color: #FBFBFB;
@@ -24,8 +21,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 50px;
-    padding: 0 100px;
+    height: 100px;
+    padding: 0 400px;
 }
 .main-nav-list {
     list-style: none;
@@ -36,60 +33,55 @@ body {
 }
 /*footer*/
 
-footer {
-  display: flex;
-  color: #FBFBFB;      
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  font-size: 15px;
+.footer {
+    display: flex;
+    color: #FBFBFB;      
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 15px
 }
 
 /*main*/
-
-
-/*intro*/
-
-.intro {
-    padding: 100px;
-
-}
-.top {
+.intro-container {
     display: flex;
+    justify-content: center;
 }
-.image-placeholder {
-    justify-content: flex-end;
+.button1 {
+    align-self: flex-end;
+}
+.placeholder {
     color: white;
     background-color: black;
-    size: 50px;
-    
+    padding: 100px 90px;  
+ 
 }
+
 
 /*images*/
 
 
+
 /*quote*/
 .quote {
+    display: flex;    flex-direction: column;
     padding: 100px;
-
 }
 .quotetext {
     font-style: italic;
     font-size: 20px;
-    display: flex;
+
 }
 
 .author {
     align-self: flex-end;
 }
-
 /*signup*/
 .signup {
     padding: 100px;
-
+    display: flex;
+    justify-content: space-evenly;  
 }
-
-
 
 /*buttons*/
 .button1, .button2 {
@@ -98,6 +90,7 @@ footer {
     padding: 5px 12px;
     border-radius: 8px;
     color: black;
+    
 }
 
 
