@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-.intro-container, header, footer  {
+.intro-container, header, footer,.quote  {
     background-color: #F41F4E;
 }
 
@@ -63,7 +63,7 @@ footer {
 
 /*quote*/
 .quote {
-    display: flex;    flex-direction: column;
+    display: flex;
     padding: 100px;
 }
 .quotetext {
@@ -90,6 +90,9 @@ footer {
     border-radius: 8px;
     color: black;
     
+}
+#button1 {
+    margin-top: 10px;
 }
 
 
