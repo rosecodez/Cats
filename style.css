@@ -1,103 +1,100 @@
 /* Override default style and set padding and margin to nothing */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.intro-container, header, footer,.quote  {
-    background-color: #F41F4E;
+.intro-container,
+header,
+footer,
+.quote-container {
+  background-color: #f41f4e;
 }
 
 body {
-    background-color: 
-    #FCC0C5;
-    font-size: 18px;
-    
-
+  background-color: #fcc0c5;
+  font-size: 18px;
 }
 /*header */
 .logo {
-    color: #FBFBFB;
+  color: #fbfbfb;
 }
 .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 430px;
-    padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 430px;
+  padding-top: 20px;
 }
 
 .main-nav-list {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    font-size: 20px;
-    color: white;    
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  color: white;
 }
 /*footer*/
 
 footer {
-    display: flex;
-    color: #FBFBFB;      
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    padding: 3%;
+  display: flex;
+  color: #fbfbfb;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 3%;
 }
 
 /*main*/
 .main {
-    padding: 3%;
-    min-height: auto;
+  padding: 3%;
+  min-height: auto;
 }
 .intro-container {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
 }
 .placeholder {
-    color: white;
-    background-color: black;
-    padding: 110px 130px; 
+  color: white;
+  background-color: black;
+  padding: 110px 130px;
 }
 /*images*/
 
-
-
 /*quote*/
-
-
-.quote {
-    font-style: italic;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 50px;
+.quote-container {
     font-size: 25px;
+    padding: 100px;
+  }
+#content {
+    width: 900px;
+    margin:auto;
+} 
+#quotetext {
+    font-style: italic;
 }
 #author {
-    align-self: flex-end;
+    text-align: right;
 }
+
 /*signup*/
 .signup {
-    padding: 100px;
-    display: flex;
-    justify-content: space-around;
-
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
 }
 
 /*buttons*/
-#button1, #button2 {
-    background-color: white;
-    font-size: 15px;
-    padding: 5px 12px;
-    border-radius: 8px;
-    color: black;
-    
+#button1,
+#button2 {
+  background-color: white;
+  font-size: 15px;
+  padding: 5px 12px;
+  border-radius: 8px;
+  color: black;
 }
 #button1 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-
-
