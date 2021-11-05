@@ -61,6 +61,15 @@ footer {
   background-color: black;
   padding: 110px 130px;
 }
+
+/*h2*/
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
 /*images*/
 
 /*quote*/
@@ -69,7 +78,7 @@ footer {
     padding: 100px;
   }
 #content {
-    width: 900px;
+    width: 1000px;
     margin:auto;
 } 
 #quotetext {
@@ -78,7 +87,9 @@ footer {
 #author {
     text-align: right;
 }
-
+.images {
+    border-radius: 50%;
+}
 /*signup*/
 .signup {
   padding: 100px;
