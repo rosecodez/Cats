@@ -47,10 +47,8 @@ footer {
 }
 
 /*main*/
-.main {
-  padding: 3%;
-  min-height: auto;
-}
+
+
 .intro-container {
   display: flex;
   justify-content: space-evenly;
@@ -70,7 +68,73 @@ h2 {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*images*/
+.card-wrapper {
+    display: flex;
+    text-align: center;
+    gap: 2em;
+    padding: 0 5em;
+}
+.card {
+    position: relative;
+    width: 100%;
+}
+.card-img-wrapper {
+    object-fit: cover;
+    border: 10px solid #3882f6;
+    border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*quote*/
 .quote-container {
@@ -86,9 +150,6 @@ h2 {
 }
 #author {
     text-align: right;
-}
-.images {
-    border-radius: 50%;
 }
 /*signup*/
 .signup {
